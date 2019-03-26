@@ -13,7 +13,8 @@ cc.Class({
 
     properties: {
         mouseRegion : cc.Node,
-        forceMultiplier : 1
+        forceMultiplier : 1,
+        //aaa : cc.Node
     },
 
     // LIFE-CYCLE CALLBACKS:
@@ -21,6 +22,7 @@ cc.Class({
     // onLoad () {},
 
     start () {
+        //this.aaa.getComponent(cc.RigidBody).applyLinearImpulse(new cc.Vec2(1000, 0), new cc.Vec2(0, 0));
         this.startPosition = null;
         this.startTouch = null;
         this.touching = null;

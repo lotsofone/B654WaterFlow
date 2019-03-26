@@ -1,17 +1,17 @@
 {
   "ver": "1.0.4",
-  "uuid": "517c5f16-c98a-44f6-97d3-3f0b76653377",
+  "uuid": "ef7d93ba-8e48-45f6-a359-1656cd675284",
   "scaleFactor": 1,
   "subMetas": {
     "buffer.bin": {
       "ver": "1.0.0",
-      "uuid": "f843b3b6-0372-4ee6-9fcb-05fc80cf0f66",
+      "uuid": "7516fe08-b3ed-4c46-92cf-94619bb769dd",
       "subMetas": {}
     },
-    "立方体.mesh": {
+    "mesh.mesh": {
       "ver": "1.0.0",
-      "uuid": "8a39a5ee-5b5c-4163-8626-8c1ec63a3d47",
-      "modelUuid": "517c5f16-c98a-44f6-97d3-3f0b76653377",
+      "uuid": "7ff93514-42d4-46d6-be92-22b7124c41d2",
+      "modelUuid": "ef7d93ba-8e48-45f6-a359-1656cd675284",
       "meshID": 0,
       "verts": 24,
       "tris": 12,
@@ -30,7 +30,7 @@
     },
     "cube.prefab": {
       "ver": "1.0.0",
-      "uuid": "ab0a481d-d166-4966-bd79-ce05e0c31369",
+      "uuid": "7beda8a7-f75f-484e-9fb2-4c5a54a6b434",
       "optimizationPolicy": "AUTO",
       "asyncLoadAssets": false,
       "readonly": true,
@@ -181,7 +181,7 @@
         },
         {
           "__type__": "cc.Node",
-          "_name": "立方体",
+          "_name": "mesh",
           "_objFlags": 0,
           "_parent": {
             "__id__": 1
@@ -200,9 +200,9 @@
           "_opacity": 255,
           "_color": {
             "__type__": "cc.Color",
-            "r": 204,
-            "g": 204,
-            "b": 204,
+            "r": 127,
+            "g": 127,
+            "b": 127,
             "a": 255
           },
           "_contentSize": {
@@ -252,7 +252,7 @@
           "_srcBlendFactor": 770,
           "_dstBlendFactor": 771,
           "_mesh": {
-            "__uuid__": "8a39a5ee-5b5c-4163-8626-8c1ec63a3d47"
+            "__uuid__": "7ff93514-42d4-46d6-be92-22b7124c41d2"
           },
           "textures": [
             {
@@ -269,7 +269,7 @@
           "asset": {
             "__id__": 0
           },
-          "fileId": "立方体",
+          "fileId": "mesh",
           "sync": false
         },
         {
@@ -280,7 +280,7 @@
           "asset": {
             "__id__": 0
           },
-          "fileId": "517c5f16-c98a-44f6-97d3-3f0b76653377",
+          "fileId": "ef7d93ba-8e48-45f6-a359-1656cd675284",
           "sync": false
         }
       ],
