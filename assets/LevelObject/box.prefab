@@ -47,8 +47,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1,
-      "height": 1
+      "width": 128,
+      "height": 128
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -77,7 +77,7 @@
     "_skewX": 0,
     "_skewY": 0,
     "_zIndex": 0,
-    "_is3DNode": true,
+    "_is3DNode": false,
     "groupIndex": 0,
     "_id": ""
   },
@@ -109,8 +109,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 0,
-      "height": 0
+      "width": 128,
+      "height": 128
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -125,9 +125,9 @@
     },
     "_scale": {
       "__type__": "cc.Vec3",
-      "x": 64,
-      "y": 64,
-      "z": 64
+      "x": 1,
+      "y": 1,
+      "z": 1
     },
     "_quat": {
       "__type__": "cc.Quat",
@@ -139,12 +139,12 @@
     "_skewX": 0,
     "_skewY": 0,
     "_zIndex": 0,
-    "_is3DNode": true,
+    "_is3DNode": false,
     "groupIndex": 0,
     "_id": ""
   },
   {
-    "__type__": "cc.MeshRenderer",
+    "__type__": "cc.Sprite",
     "_name": "",
     "_objFlags": 0,
     "node": {
@@ -153,14 +153,22 @@
     "_enabled": true,
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
-    "_mesh": {
-      "__uuid__": "7ff93514-42d4-46d6-be92-22b7124c41d2"
+    "_spriteFrame": {
+      "__uuid__": "76ee9d4e-1b39-4f0a-9288-0b74c8df3416"
     },
-    "textures": [
-      {
-        "__uuid__": "b4180639-36c9-4999-a2fb-b22b836b6cf1"
-      }
-    ],
+    "_type": 0,
+    "_sizeMode": 1,
+    "_fillType": 0,
+    "_fillCenter": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_fillStart": 0,
+    "_fillRange": 0,
+    "_isTrimmedMode": true,
+    "_state": 0,
+    "_atlas": null,
     "_id": ""
   },
   {
